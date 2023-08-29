@@ -1,0 +1,46 @@
+@charset "utf-8";
+@import "https://fonts.googleapis.com/css?family=Noto+Serif";
+
+html, body{
+    height: 100%;
+}
+
+body{
+    background-image: url(../img/fundo-preto-background90-1024x640.webp);
+}
+
+nav#navMenu ul{
+    background-color:lightblue;
+    margin: -10px -8px -10px;
+    background-image: url(../img/1600w-VsiCxtld7Ck.webp);
+    background-repeat: no-repeat;
+    background-size: 1990px 1990px;
+    box-shadow: 7px 7px 36px 7px, black;
+}
+
+nav#navMenu ul li{
+    text-decoration: none;
+    display: inline-block;
+}
+
+nav#navMenu ul li a{
+    text-decoration: none;
+    color: aqua;
+    font-size: 16pt;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+
+h1{
+    background-color: rgb(10, 10, 10);
+    text-align: center;
+    font-size: 30pt;
+    display: block;
+    position: center;
+    margin-right: -8px;
+    margin-left: -8px;
+    box-shadow: 1px 1px 40px, black;
+    color: aliceblue;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
