@@ -1,0 +1,56 @@
+@charset "utf-8";
+@import "https://fonts.googleapis.com/css?family=Noto+Serif";
+
+
+
+div#informaçãoPessoal aside {
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+    background-color: white;
+    width: 350px;
+    text-align: left;
+    padding: 20px;
+    margin-left: 330px; 
+    margin-top: -810px;
+    border-radius: 10px;
+    width: 650px;
+}
+
+@media (max-width: 768px) {
+
+  }
+  
+  @media (min-width: 768px) and (max-width: 1200px) {
+    
+  }
+
+
+div#informaçãoPessoal ul li {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 0; 
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+legend {
+    font-size: 24pt; 
+    color: #141414;
+    text-align: center;
+    font-family: "Verdana", Geneva, Tahoma, sans-serif;
+    text-shadow: 1px 2px 4px black;
+    margin-top: 0; 
+    padding-top: 20px; 
+}
+
+div#informaçãoPessoal figure img{
+    width: 590px;
+    border-radius: 10px;
+    max-width: 650px;        
+    box-shadow: 1px 1px 4px black;
+    margin-top: 10px;
+    margin-left: 1000px
+}
+
+div#informaçãoPessoal a img{
+    width: 25px;
+}
+

@@ -1,0 +1,128 @@
+@charset "utf-8";
+@import "https://fonts.googleapis.com/css?family=Noto+Serif";
+
+
+ul#portfolio{
+    width: 1500px;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+    list-style: none;
+    cursor: pointer;
+    position: center;
+    display: block;
+}
+
+@media (max-width: 768px) {
+   ul#portfolio{
+       width: 90%;
+   }
+  }
+  
+  @media (min-width: 768px) and (max-width: 1200px) {
+    ul#portfolio{
+        width: 70%;
+    }
+  }
+  
+
+ul#portfolio li{
+    float: left;
+    width: 470px;
+    height: 300px;
+    border: 5px solid;
+    box-shadow: 1px 1px 3px rgba(241, 238, 238, 0.4);
+}
+
+
+ul#portfolio li span{
+    opacity: 0;
+    color: rgb(238, 235, 235);
+    font-size: 30px;
+    padding: 20px; 
+    text-align: center; 
+    background-color: rgba(14, 13, 13, 0.9); 
+    box-shadow: 1px 1px 4px rgba(241, 238, 238, 0.4);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: opacity 0.3s, box-shadow 0.3s; 
+    
+}
+
+ul#portfolio li:hover span{
+    opacity: 1;
+    box-shadow: 1px 1px 8px rgba(241, 238, 238, 0.7);
+}
+
+ul#portfolio li#foto1{
+    background: url("../img/Captura\ de\ tela\ 2023-08-23\ 112736.png") no-repeat;
+    background-position: 50% 50%;
+    background-size: 470px 300px;
+    background-color: #ffffff;
+}
+
+ul#portfolio li#foto2{
+    background: url("../img/fornecedor.png") no-repeat;
+    background-position: 50% 50%;
+    background-size: 470px 300px;
+    background-color: #ffffff;
+
+}
+
+ul#portfolio li#foto3{
+    background: url("../img/manu\ produto.png") no-repeat;
+    background-position: 50% 50%;
+    background-size: 470px 300px;
+    background-color: #ffffff;
+}
+
+ul#portfolio li#foto4{
+    background: url("../img/Captura\ de\ tela\ 2023-08-28\ 100550.png") no-repeat;
+    background-position: 50% 50%;
+    background-size: 470px 300px;
+    background-color: #ffffff;
+}
+
+ul#portfolio li#foto5{
+    background: url("../img/contato.png") no-repeat;
+    background-position: 50% 50%;
+    background-size: 470px 300px;
+    background-color: #ffffff;
+}
+
+ul#portfolio li#foto6{
+    background: url("../img/Captura\ de\ tela\ 2023-08-24\ 094603.png") no-repeat;
+    background-position: 50% 50%;
+    background-size: 470px 300px;
+    background-color: #ffffff;
+}
+
+ul#portfolio li#foto7{
+    background: url("../img/diagrama1.png") no-repeat;
+    background-position: 50% 50%;
+    background-size: 470px 300px;
+    background-color: #ffffff;
+}
+
+ul#portfolio li#foto8{
+    background: url("../img/diagrama2.png") no-repeat;
+    background-position: 50% 50%;
+    background-size: 470px 300px;
+    background-color: #ffffff;
+}
+
+ul#portfolio li#foto9{
+    background: url("../img/diagrama3.png") no-repeat;
+    background-position: 50% 50%;
+    background-size: 470px 300px;
+    background-color: #ffffff;
+}
+
+ul#portfolio li#foto10{
+    background: url("../img/Captura\ de\ tela\ 2023-08-28\ 121833.png") no-repeat;
+    background-position: 50% 50%;
+    background-size: 470px 300px;
+    background-color: #ffffff;
+}
